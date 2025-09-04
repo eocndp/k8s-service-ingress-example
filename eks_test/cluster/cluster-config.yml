@@ -3,8 +3,8 @@ kind: ClusterConfig
 
 metadata:
   name: eks-test
-  region: ap-northeast-2
-  version: "1.30"
+  region: ap-northeast-2 
+  version: "1.33" # 표준 지원 기간 확인(넘어가면 추가 요금), 간단한 예제라 최신 버전으로
 
 vpc:
   cidr: 10.0.0.0/16
